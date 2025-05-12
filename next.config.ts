@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  devIndicators:false
+  devIndicators:false,
+  distDir: "build",
+  output:'export'
   /* config options here */
 };
 
